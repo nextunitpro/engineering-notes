@@ -1,14 +1,23 @@
 # Engineering notes
 
-Weekly notes from building AI voice agents for small businesses.
+Short write-ups of things that broke while building AI voice agents, and the fix that held.
+One finding per file: what broke, why, the fix with code, and when not to use it.
 
-Each note is one story from the week: what broke, what I noticed, and the rule I took from it.
-Short versions go to LinkedIn with a link back here.
+_2 notes so far._
 
-Nothing here names clients, internal systems, or money. The point is the engineering lesson,
-not the business behind it.
+---
 
-## Notes
+### Categories
 
-- [2026-09-16 — How do you test your tests?](notes/2026-09-16-test-your-tests.md)
-- [2026-09-23 — Agent memory conflicts: compare slots, not wording](notes/2026-09-23-memory-slots-not-wording.md)
+* [Agent memory](#agent-memory)
+* [Testing](#testing)
+
+---
+
+### Agent memory
+
+- [Compare fact slots, not sentences, to resolve memory conflicts](agent-memory/compare-fact-slots-not-sentences.md) - 2026-09-23
+
+### Testing
+
+- [Feed a check known-bad input before trusting it](testing/feed-a-check-known-bad-input-before-trusting-it.md) - 2026-09-16
